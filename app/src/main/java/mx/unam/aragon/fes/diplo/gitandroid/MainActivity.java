@@ -34,6 +34,12 @@ public class MainActivity extends AppCompatActivity {
                 miTexto.setText("Diplomado Android");
             }
         });
+        miBoton2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                miTexto.setText("Diplomado Android");
+            }
+        });
     }
 
 }
